@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="action_settings">settings</string>
+    <string name="action_next">Lyrics Language</string>
+    <string-array name="languages">
+
+        <item>English</item>
+        <item>Kannada</item>
+        <item>Malayalam</item>
+        <item>Sanskrit</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+
+    </string-array>
+</resources>
