@@ -2,14 +2,34 @@
     <string name="app_name">MusicPlayer</string>
     <string name="action_settings">settings</string>
     <string name="action_next">Lyrics Language</string>
+    <string name="string_open">Open</string>
+    <string name="string_close">Close</string>
     <string-array name="languages">
 
         <item>English</item>
         <item>Kannada</item>
-        <item>Malayalam</item>
         <item>Sanskrit</item>
         <item>Tamil</item>
         <item>Telugu</item>
 
     </string-array>
+    <string-array name="menuitems">
+        <item>Sai Aarthi</item>
+        <item>About Saibaba</item>
+        <item>Thursdays Pooja</item>
+        <item>Special Events</item>
+        <item>Annathanam</item>
+        <item>Sai Upahara Volunteer</item>
+        <item>Sai Bala Vikas</item>
+        <item>Gallery</item>
+        <item>Organization</item>
+        <item>How to Reach</item>
+        <item>Aboutus</item>
+        <item>Feedback</item>
+        <item>Share</item>
+        <item>About Kasinathan Technology</item>
+
+
+    </string-array>
+
 </resources>

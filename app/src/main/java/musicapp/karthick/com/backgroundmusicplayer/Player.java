@@ -365,10 +365,11 @@ public class Player extends AppCompatActivity {
                                 e.printStackTrace();
                             }
                             break;
+
                         case 2:
 
                             try {
-                                mLyricTxt.setText(updateTextView(Songs.malayalamLyrics[0]));
+                                mLyricTxt.setText(updateTextView(Songs.sanskritLyrics[currentSongIndex]));
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
@@ -376,7 +377,7 @@ public class Player extends AppCompatActivity {
                         case 3:
 
                             try {
-                                mLyricTxt.setText(updateTextView(Songs.sanskritLyrics[0]));
+                                mLyricTxt.setText(updateTextView(Songs.tamilLyrics[currentSongIndex]));
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
@@ -384,15 +385,7 @@ public class Player extends AppCompatActivity {
                         case 4:
 
                             try {
-                                mLyricTxt.setText(updateTextView(Songs.tamilLyrics[0]));
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                            break;
-                        case 5:
-
-                            try {
-                                mLyricTxt.setText(updateTextView(Songs.teluguLyrics[0]));
+                                mLyricTxt.setText(updateTextView(Songs.teluguLyrics[currentSongIndex]));
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }

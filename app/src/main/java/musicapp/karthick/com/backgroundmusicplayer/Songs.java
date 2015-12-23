@@ -5,16 +5,16 @@ package musicapp.karthick.com.backgroundmusicplayer;
  */
 public class Songs {
 
-    public static int[]englishLyrics = {R.raw.mockingbird_english,R.raw.mushroom_english,R.raw.notafraid_english,R.raw.puke_english,R.raw.spacebound_english};
-    public static int[]kannadaLyrics = {R.raw.mockingbird_kannada,R.raw.mushroom_kannada,R.raw.notafraid_kannada,R.raw.puke_kannada,R.raw.spacebound_kannada};
-    public static int[]malayalamLyrics = {R.raw.malayalam};
-    public static int[]sanskritLyrics = {R.raw.sanskrit};
-    public static int[]tamilLyrics = {R.raw.tamil};
-    public static int[]teluguLyrics = {R.raw.telugu};
-    public static Integer[] songsListArray = {R.raw.eminem_mockingbird, R.raw.eminem_mushroom, R.raw.eminem_notafraid, R.raw.eminem_puke, R.raw.eminem_spacebound};
-    public static String[] songNameArray = {"MockingBird",
-            "Mushroom",
-            "NotAfraid",
-            "Puke",
-            "SpaceBound"};
+    public static int[]englishLyrics = {R.raw.denglish,R.raw.kenglish,R.raw.menglish,R.raw.senglish};
+    public static int[]kannadaLyrics = {R.raw.dkannada,R.raw.kkannada,R.raw.mkannada,R.raw.skannada};
+    //public static int[]malayalamLyrics = {R.raw.,R.raw.mushroom_malayalam,R.raw.notafraid_malayalam,R.raw.puke_malayalam,R.raw.spacebound_malayalam};
+    public static int[]sanskritLyrics = {R.raw.dsanskrit,R.raw.ksanskrit,R.raw.msanskrit,R.raw.ssanskrit};
+    public static int[]tamilLyrics = {R.raw.dtamil,R.raw.ktamil,R.raw.mtamil,R.raw.stamil};
+    public static int[]teluguLyrics = {R.raw.dtelugu,R.raw.ktelugu,R.raw.mtelugu,R.raw.stelugu};
+    public static Integer[] songsListArray = {R.raw.dhoop, R.raw.kakad, R.raw.madyan, R.raw.shej};
+    public static String[] songNameArray = {"Dhoop",
+            "Kakad",
+            "Madyan",
+            "Shej"
+            };
 }
